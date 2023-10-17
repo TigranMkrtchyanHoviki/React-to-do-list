@@ -1,0 +1,44 @@
+.Error_Container {
+   width: 700px;
+   height: 500px;
+   border: none;
+   box-shadow: 0px 0px 15px #8b8888;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   position: fixed;
+   top: 19%;
+   /* left: 50%; */
+   transform: translate(0% -50%);
+   background: #a9a3a3;
+   border-radius: 5px;
+   z-index: 59;
+}
+
+.active {
+    display: none;
+}
+
+.Error_Container > span:first-of-type {
+    color: #ff0000;
+    padding: 20px;
+ }
+
+.Error_Container > span:last-child {
+   color: #ff0000;
+   padding: 20px;
+   font-size: 30px;
+}
+
+.Error_Container > button {
+    width: 50px;
+    height: 50px;
+    background: rgb(210, 205, 205);
+    opacity: 0.7;
+    border: none;
+   position: absolute;
+   top: 0;
+   left: 100%;
+   transform: translate(-100%, 0%);
+   border-radius: 0px 5px 0px 5px;
+}

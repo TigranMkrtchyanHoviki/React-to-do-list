@@ -1,0 +1,54 @@
+.TodoItem_Container {
+    margin-top: 10px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    width: 460px;
+    display: flex;
+    justify-content: center;
+    border: 1px solid #cec2c2;
+    box-shadow: 0px 0px 10px #c5c0c0;
+}
+
+.TodoItem_Container:first-child {
+    margin-top: 20px;
+}
+
+.TodoItem_Container:last-child {
+    margin-bottom: 20px;
+}
+
+.Text, .Time {
+    padding: 10px;
+}
+
+.Text {
+    font-size: 23px;
+    color: #6b6868;
+}
+
+.Time {
+    background: #f1ecec;
+    border-radius: 5px;
+}
+
+.Time >span {
+    padding: 10px;
+}
+
+.Buttons {
+    padding: 10px;
+    width: 160px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Done_button, .Delete_button {
+    border: none;
+    height: 30px;
+    border-radius: 3px;
+}
+
+.Done_button:hover, .Delete_button:hover {
+    background: #cec2c2;
+    transition: 0.3s;
+}

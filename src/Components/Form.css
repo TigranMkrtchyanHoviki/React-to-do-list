@@ -1,0 +1,44 @@
+.Form_Container {
+    margin-top: 30px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.Form_Container > form {
+    display: flex;
+    justify-content: space-between;
+    width: 460px;
+    height: 61px;
+    box-shadow: 0px 0px 10px #c5c0c0;
+    border-radius: 5px;
+}
+
+.Form_Container > form > input {
+    width: 350px;
+    height: 40px;
+    padding: 10px;
+    font-size: 23px;
+    border: 1px solid #cbc9c9;
+    border-radius: 5px 0px 0px 5px;
+    color:#8f8585
+}
+
+.Form_Container > form > button {
+    height: 62px;
+    margin-bottom: 3px;
+    width: 90px;
+    border: 1px solid #cbc9c9;
+    border-radius: 0px 5px 5px 0px;
+    font-size: 23px;
+    color: #847e7e;
+}
+
+.Form_Container > form > button:hover {
+    background: #cec2c2;
+    transition: 0.3s;
+    color: #ffffff;
+}
+
+.Form_Container > form > input:focus {
+    border: none;
+  }
